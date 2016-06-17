@@ -20,7 +20,7 @@ double pi()
         	valor_pi = (y*z)/2;
                 z = sqrt(2-sqrt(4 - z * z));
                 y = y*2;
-                x++;
+                x+=1;
         }
  
         return valor_pi;
