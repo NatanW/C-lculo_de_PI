@@ -13,16 +13,16 @@ int main()
 double pi() 
 {
 	int valor = 9, x=0, y=6;
-    double z=1, valor_pi =0.0;
+        double z=1, valor_pi =0.0;
  
-    while (x <= valor)
-    {
-        valor_pi = (y*z)/2;
-        z = sqrt(2-sqrt(4 - z * z));
-        y = y*2;
-        x++;
-    }
+        while (x <= valor)
+        {
+        	valor_pi = (y*z)/2;
+                z = sqrt(2-sqrt(4 - z * z));
+                y = y*2;
+                x++;
+        }
  
-    return valor_pi;
+        return valor_pi;
  
 }
